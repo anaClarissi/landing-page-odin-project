@@ -110,3 +110,53 @@ a {
     color: var(--primary-text);
     background-color: var(--blue-background);
 }
+
+
+
+/* MAIN */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 5em 0;
+}
+
+/* INFORMATION SECTION */
+
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.section-title {
+    font-family: 2.25rem;
+    font-weight: 900;
+    color: var(--tertiary-text);
+}
+
+.card-area {
+    text-align: center;
+    display: flex;
+    gap: 5em;
+}
+
+.information-card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--tertiary-text);
+}
+
+.card-text {
+    color: var(--tertiary-text);
+}
+
+.card-img {
+    font-size: 5rem;
+}
