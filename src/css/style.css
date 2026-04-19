@@ -65,6 +65,18 @@ a {
     width: 100%;
 }
 
+.navbar-toggler {
+    color: var(--primary-text) !important;
+    border: none;
+    outline: none;
+}
+
+#navbar-links.show > .navbar-nav {
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+}
+
 .nav-link {
     color: var(--primary-text);
 }
@@ -112,6 +124,33 @@ a {
 .btn-start:focus {
     color: var(--primary-text);
     background-color: var(--blue-background);
+}
+
+@media (max-width: 768px) {
+
+    .header-content {
+        flex-direction: column;
+        gap: 0;
+        padding: 5em 0 3em;
+    }
+
+    .header-body {
+        text-align: center;
+        align-items: center;
+    }
+
+    .header-title {
+        font-size: 1.5rem;
+    }
+
+    .header-subtitle {
+        font-size: 0.875rem;
+    }
+
+    #img-header {
+        display: none;
+    }
+
 }
 
 
