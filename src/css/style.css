@@ -270,6 +270,67 @@ a {
     background-color: var(--dark-background);
 }
 
+@media (max-width: 768px) {
+
+    /* INFORMATION SECTION */
+
+    .section-title {
+        font-size: 1.25rem;
+    }
+    
+    .card-area {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+    }
+
+    .information-card .card-img {
+        font-size: 3rem;
+    }
+
+    /* QUOTE SECTION */
+
+    #quote {
+        padding: 3em 0;
+    }
+
+    .quote-text {
+        text-align: center;
+        font-size: 1.15rem;
+    }
+
+    .quote-author {
+        font-size: 0.875rem;
+        font-weight: 900;
+        text-align: right;
+    }
+
+    /* CALL ACTION SECTION */
+
+    #call-action {
+        padding: 5em 1.5em;
+    }
+
+    .call-action-card {
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        row-gap: 1em;
+        padding: 2em 1em;
+    }
+
+    .call-action-card .card-body {
+        gap: 1em;
+    }
+
+}
+
 
 
 /* FOOTER */
@@ -285,4 +346,12 @@ a {
 #footer p {
     color: var(--primary-text);
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    
+    #footer p{
+        font-size: 0.75rem;
+    }
+
 }
