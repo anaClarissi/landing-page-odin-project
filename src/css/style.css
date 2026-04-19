@@ -1,0 +1,31 @@
+:root {
+
+    --dark-background: #1F2937;
+    --blue-background: #3882F6;
+
+    --quote-background: #E5E7EB;
+    --quote-text: #1F2937;
+
+    --primary-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --tertiary-text: #1F2937;
+
+    --logo-text: #F9FAF8;
+
+    --font-primary: 'Roboto', Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: normal;
+}
