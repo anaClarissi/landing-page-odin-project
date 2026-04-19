@@ -29,3 +29,84 @@ body {
     font-size: 1rem;
     font-weight: normal;
 }
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+#header {
+    background-color: var(--dark-background);
+}
+
+#header .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-area {
+    flex: 3;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 12.5%;
+    color: var(--logo-text);
+}
+
+#header .navbar-nav {
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-link {
+    color: var(--primary-text);
+}
+
+.nav-link:hover {
+    color: var(--secondary-text);
+}
+
+.header-content {
+    display: flex;
+    gap: 5em;
+    padding: 5em 0;
+    justify-content: space-between;
+}
+
+.header-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+#img-header {
+    border-radius: 30px;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-text);
+}
+
+.header-subtitle {
+    font-size: 1.125rem;
+    color: var(--secondary-text);
+}
+
+.btn-start {
+    width: 200px;
+    color: var(--primary-text);
+    background-color: var(--blue-background);
+}
+
+.btn-start:hover,
+.btn-start:focus {
+    color: var(--primary-text);
+    background-color: var(--blue-background);
+}
