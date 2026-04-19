@@ -119,7 +119,6 @@ a {
     display: flex;
     flex-direction: column;
     gap: 0;
-    padding: 5em 0;
 }
 
 /* INFORMATION SECTION */
@@ -129,6 +128,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 2em;
+    padding: 5em 0;
 }
 
 .section-title {
@@ -147,17 +147,17 @@ a {
     border: none;
 }
 
-.card-title {
+.information-card .card-title {
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--tertiary-text);
 }
 
-.card-text {
+.information-card .card-text {
     color: var(--tertiary-text);
 }
 
-.card-img {
+.information-card .card-img {
     font-size: 5rem;
 }
 
@@ -181,4 +181,49 @@ a {
 
 .quote-author::before {
     content: "-";
+}
+
+/* CALL ACTION SECTION */
+
+#call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0;
+}
+
+.call-action-card {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    padding: 2em 5em;
+    color: var(--primary-text);
+    background-color: var(--blue-background);
+    border: none;
+}
+
+.call-action-card .card-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 5em;
+}
+
+.call-action-card .card-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0 5em;
+}
+
+.btn-subscribe {
+    width: 100%;
+    max-width: 200px;
+    color: var(--primary-text);
+    border: 1px solid var(--primary-text);
+    background-color: var(--blue-background);
+}
+
+.btn-subscribe:hover {
+    color: var(--primary-text);
+    background-color: var(--dark-background);
 }
