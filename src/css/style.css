@@ -160,3 +160,25 @@ a {
 .card-img {
     font-size: 5rem;
 }
+
+/* QUOTE SECTION */
+
+#quote {
+    padding: 7em 0;
+    background-color: var(--quote-background);
+}
+
+.quote-text {
+    font-size: 2.25rem;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 1.125rem;
+    font-weight: 900;
+    text-align: right;
+}
+
+.quote-author::before {
+    content: "-";
+}
